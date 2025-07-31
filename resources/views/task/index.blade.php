@@ -73,7 +73,7 @@
                             <tr>
                                 <td class="px-6 py-4 whitespace-nowrap">{{ $loop->iteration }}</td>
                                 <td class="px-6 py-4 whitespace-nowrap">{{ $task->title }}</td>
-                                <td class="px-6 py-4 whitespace-nowrap">{{ $task->description }}</td>
+                                <td class="px-6 py-4 break-words whitespace-normal">{{ $task->description }}</td>
                                 <td class="px-6 py-4 whitespace-nowrap">{{ $task->due_date ? $task->due_date : 'N/A' }}</td>
                                 <td class="px-6 py-4 whitespace-nowrap">
                                        <span

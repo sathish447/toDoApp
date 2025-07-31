@@ -1,6 +1,6 @@
 # Laravel Task Management System
 
-A simple Task Management System built with Laravel that allows users to create, assign, update, and manage tasks efficiently. It includes features such as task status,  and a scheduled command to update task status daily.
+A simple Task Management System built with Laravel that allows users to create, update, and manage tasks efficiently. It includes features such as task status,  and a scheduled command to update task status daily.
 
 ## Features
 
@@ -24,7 +24,7 @@ A simple Task Management System built with Laravel that allows users to create, 
 
 1. **Clone the repository**
 
-git clone https://github.com/joshuva05/toDoApp.git
+git clone https://github.com/sathish447/toDoApp.git
 cd toDoApp
 
 ## Install dependencies
@@ -57,4 +57,14 @@ Passworg : Abc@1234
 
 Email : daniel@test.com
 Passworg : Abc@1234
- 
+
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Create Task
+![Create Task](screenshots/task-form.png)
+
+### Task Status Chart
+![Task Status Chart](screenshots/pie-chart.png)
