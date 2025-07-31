@@ -1,6 +1,7 @@
 # Laravel Task Management System
 
-A simple Task Management System built with Laravel that allows users to create, update, and manage tasks efficiently. It includes features such as task status,  and a scheduled command to update task status daily.
+A simple Task Management System built with Laravel that allows users to create, update, and manage tasks efficiently. It includes features such as task statuses and a scheduled command to update task statuses daily.
+
 
 ## Features
 
@@ -12,7 +13,7 @@ A simple Task Management System built with Laravel that allows users to create, 
 - Responsive UI with Blade and Tailwind CSS
 - Graphical representation (Chart.js) Pie chart to show task status
 
-## Requirements
+## Tech Stack
 
 - PHP >= 8.1
 - Composer
@@ -68,3 +69,9 @@ Passworg : Abc@1234
 
 ### Task Status Chart
 ![Task Status Chart](screenshots/pie-chart.png)
+
+
+## Running Tests
+
+Run feature tests with:
+php artisan test
