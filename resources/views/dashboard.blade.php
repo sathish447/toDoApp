@@ -85,6 +85,12 @@
           {{ $taskCountByStatus['pending'] ?? 0 }},
           {{ $taskCountByStatus['overdue'] ?? 0 }}
         ],
+
+        backgroundColor: [
+          '#10B981',
+          '#3B82F6',
+          '#EF4444'
+        ],
          hoverOffset: 4
       }]
     },

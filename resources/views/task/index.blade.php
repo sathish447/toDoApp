@@ -79,10 +79,10 @@
                                        <span
                                             @class([
                                                 'px-2 py-1 rounded-full text-sm font-medium',
-                                                'bg-yellow-100 text-yellow-800' => $task->status === 'pending',
-                                                'bg-green-100 text-green-800' => $task->status === 'completed',
+                                                'bg-[#3B82F6] text-white' => $task->status === 'pending',
+                                                'bg-[#10B981] text-white' => $task->status === 'completed',
                                                 'bg-blue-100 text-blue-800' => $task->status === 'in progress',
-                                                'bg-gray-100 text-gray-800' => !in_array($task->status, ['pending', 'completed', 'in progress']),
+                                                'bg-[#EF4444] text-white' => !in_array($task->status, ['pending', 'completed', 'in progress']),
                                             ])
                                         >
                                             {{ ucwords($task->status) }}
